@@ -1,4 +1,5 @@
-let mySprite = sprites.create(img`
+function hero () {
+    mySprite = sprites.create(img`
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
@@ -32,3 +33,7 @@ let mySprite = sprites.create(img`
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 `, SpriteKind.Player)
+    controller.moveSprite(mySprite, 200, 200)
+}
+let mySprite: Sprite = null
+hero()
