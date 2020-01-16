@@ -2,7 +2,8 @@
     "name": "myowngame2",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "color-coded-tilemap": "*"
     },
     "files": [
         "main.blocks",
