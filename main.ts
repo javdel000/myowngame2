@@ -33,6 +33,7 @@ function hero2 () {
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 `, SpriteKind.Player)
+    // It moves the hero x and y
     controller.moveSprite(hero, 300, 300)
     hero.setPosition(272, 495)
 }
